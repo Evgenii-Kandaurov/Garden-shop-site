@@ -1,0 +1,179 @@
+.main-about-two{
+   display: flex;
+   align-items: center;
+   justify-content:space-between;
+   flex: 1 1 auto;
+   flex-wrap: wrap;
+}
+
+.about-two-discription{
+   padding-left: 109px;
+}
+
+
+.about-two-header{
+   width: 463px;
+   height: 102px;
+   font-family: 'Inika';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 40px;
+   line-height: 52px;
+}
+
+.about-two-header-green{
+   color: var(--greenTextColor);
+}
+
+.about-two-header-orange{
+   color: var(--orangeTextBtnColor);
+}
+
+.about-two-text{
+   width: 605px;
+   height: 208px;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 30px;
+}
+
+.about-two{
+   width: 464px;
+   height: 479px;
+}
+
+.about-two-image{
+   width:464px;
+   height:479px;
+   padding-right: 109px;
+}
+
+
+
+
+
+@media screen and(max-width:768px){
+   .main-about-two{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+   }
+   
+   .about-two-discription{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0;
+   }
+   
+   
+   .about-two-header{
+      text-align: center;
+      width: 463px;
+      height: 102px;
+      font-family: 'Inika';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 40px;
+      line-height: 52px;
+   }
+   
+   .about-two-header-green{
+      color: var(--greenTextColor);
+   }
+   
+   .about-two-header-orange{
+      color: var(--orangeTextBtnColor);
+   }
+   
+   .about-two-text{
+      text-align: left;
+      width: 605px;
+      height: 208px;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 30px;
+   }
+   
+   .about-two{
+      width: 464px;
+      height: 479px;
+   }
+   
+   .about-two-image{
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      width:464px;
+      height:479px;
+   }
+
+   .about-two-housePlant-image{
+      width: 258px;
+      height: 250px;
+   }
+   
+
+}
+
+
+@media screen and(max-width:380px){
+   
+   .main-about-two{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+   }
+
+   .about-two-discription{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0;
+      margin: 0 25px 0 25px;
+   }
+
+
+   .about-two-header{
+      //margin: 0 46px 0 46px;
+      margin: 0 0 21px 0;
+      text-align: center;
+      width: auto;
+      height: auto;
+      font-family: 'Inika';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 25px;
+      line-height: 33px;
+   }
+
+   .about-two-text{
+      margin: 0 0 0.33px 0;
+      text-align: left;
+      width: auto;
+      height: auto;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 25px;
+   }
+
+   .about-two-image{
+      margin: 0 0 31px 0;
+      width: auto;
+      height: auto;
+      padding: 0;
+   }
+
+   .about-two-housePlant-image{
+      width: 150px;
+      height: 147px;
+   }
+
+
+}

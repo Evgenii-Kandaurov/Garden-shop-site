@@ -1,0 +1,21 @@
+:root{
+   --orangeTextBtnColor: #E06733;
+   --greenTextColor: #499A18;
+   --backGroungLightGrey:#EDF2EC;
+   --btnHoverTextColor:#FFFFFF;
+   --btnHoverBgColor: #E06733;
+   --transitionForAll: linear 0.3s;
+}
+
+
+
+
+@import 'site-layout';
+@import 'header';
+@import 'main';
+@import 'main-about-us';
+@import 'main-about-two';
+@import 'service-project';
+@import 'price-help';
+@import 'contacts';
+@import 'footer';

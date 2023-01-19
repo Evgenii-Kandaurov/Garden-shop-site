@@ -1,0 +1,307 @@
+.service-projects{
+   display: flex;
+   flex-direction: column;
+   background-color: var(--backGroungLightGrey);
+}
+
+
+.service-projects-header{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-bottom: 150px;
+}
+
+.service-projects-h2{
+   width: 306px;
+   height: 94px;
+   font-family: 'Inika';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 40px;
+   line-height: 52px;
+   color: var(--greenTextColor);
+   padding-left: 109px;
+}
+
+.service-buttons{
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  width: 559px;
+  height: 50px; 
+}
+
+
+.service-button{
+   border: 1px solid var(--orangeTextBtnColor);
+   border-radius: 5px;
+   color: var(--orangeTextBtnColor);
+   width: 161px;
+   height: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   //margin-left: 38px;
+   transition: var(--transitionForAll);
+}
+
+.service-button:hover{
+   background-color: var(--btnHoverBgColor);
+   transition: var(--transitionForAll);
+   .service-button-text{
+      color:var(--btnHoverTextColor);
+      transition: var(--transitionForAll);
+   }
+}
+
+.service-button-text{
+   font-family: 'Inika';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 26px;
+   padding: 12px 54px 12px 54px;
+   transition: var(--transitionForAll);
+}
+
+.service-project-gallery{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+
+.gallery-project-input{
+   border: 1px solid #E3E1D5;
+   border-radius: 20px;
+   width:330px;
+   height: 450px;
+   margin-bottom: 121px;
+   transition: var(--transitionForAll);
+}
+
+.gallery-project-input:hover{
+   transition: var(--transitionForAll);
+   transform: scale(1.2);
+}
+
+
+.gallery-image{
+   width: 329px;
+   height: 350px;
+}
+
+.gallery-caption{
+   text-align: center;
+   
+   
+}
+
+.gallery-caption-text{
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 20px;
+   color: var(--orangeTextBtnColor);
+   margin: 10px 0px;
+}
+
+.gallery-text{
+   text-align: center;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 20px;
+   color: #717171;
+   margin: 0px;
+}
+
+
+
+
+
+@media screen and(max-width: 768px){
+   .service-projects{
+      display: flex;
+      flex-direction: column;
+      background-color: var(--backGroungLightGrey);
+   }
+   
+   
+   .service-projects-header{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0;
+      flex-wrap: wrap;
+   }
+   
+   .service-projects-h2{
+      width: 306px;
+      height: 94px;
+      font-family: 'Inika';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 40px;
+      line-height: 52px;
+      color: var(--greenTextColor);
+      padding: 0;
+      margin: 0 0 40px 50px;
+   }
+   
+   .service-buttons{
+     display: flex;
+     justify-content:space-between;
+     width: 559px;
+     height: 50px; 
+     padding: 0;
+     margin: 0 0 40px 50px;
+   }
+   
+   
+   .service-button{
+      border: 1px solid var(--orangeTextBtnColor);
+      border-radius: 5px;
+      color: var(--orangeTextBtnColor);
+      width: 161px;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      //margin-left: 38px;
+      transition: var(--transitionForAll);
+   }
+   
+   .service-button:hover{
+      background-color: var(--btnHoverBgColor);
+      transition: var(--transitionForAll);
+      .service-button-text{
+         color:var(--btnHoverTextColor);
+         transition: var(--transitionForAll);
+      }
+   }
+   
+   .service-button-text{
+      font-family: 'Inika';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 26px;
+      padding: 12px 54px 12px 54px;
+      transition: var(--transitionForAll);
+   }
+   
+   .service-project-gallery{
+      display: flex;
+      flex-wrap: wrap;
+   }
+   
+   
+   .gallery-project-input{
+      border: 1px solid #E3E1D5;
+      border-radius: 20px;
+      width:281px;
+      height: 450px;
+      margin: 0 50px 40px 50px;
+      transition: var(--transitionForAll);
+   }
+   
+   .gallery-project-input:hover{
+      transition: var(--transitionForAll);
+      transform: scale(1.2);
+   }
+   
+   
+   .gallery-image{
+      width: 280px;
+      height: 350px;
+   }
+   
+   .gallery-caption{
+      text-align: center;
+      
+      
+   }
+   
+   .gallery-caption-text{
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 20px;
+      color: var(--orangeTextBtnColor);
+      margin: 10px 0px;
+   }
+   
+   .gallery-text{
+      text-align: center;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      color: #717171;
+      margin: 0px;
+   }
+}
+
+
+@media screen and(max-width: 380px) {
+   .service-projects{
+      display: flex;
+      flex-direction: column;
+      background-color: var(--backGroungLightGrey);
+   }
+
+   .service-projects-header{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0;
+      flex-wrap: wrap;
+   }
+
+   .service-projects-h2{
+      width: 187px;
+      height: 69px;
+      font-family: 'Inika';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 25px;
+      line-height: 32px;
+      color: var(--greenTextColor);
+      padding: 0;
+      margin: 30px 0 0 25px;
+   }
+
+   .service-buttons{
+      display: flex;
+      justify-content:start;
+      flex-wrap: wrap;
+      width: auto;
+      height: auto; 
+      padding: 0;
+      margin: 35px 0 31px 25px;
+
+    }
+
+    .service-button{
+      border: 1px solid var(--orangeTextBtnColor);
+      border-radius: 5px;
+      color: var(--orangeTextBtnColor);
+      width: 130px;
+      height: 35px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      //margin-left: 38px;
+      transition: var(--transitionForAll);
+      margin: 0 10px 9px 0;
+   }
+
+
+
+}

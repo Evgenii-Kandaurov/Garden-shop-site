@@ -1,0 +1,204 @@
+.footer{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content:space-between;
+   flex: 1 1 130px;
+   align-items: center;
+}
+
+
+.footer-left-side{
+   display: flex;
+   align-items: center;
+   padding: 40px 0px 40px 109px;
+
+}
+
+.left-side-author{
+   display: inline-block;
+   width: 19px;
+   height: 50px;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 50px;
+}
+
+.left-side-year{
+   display: inline-block;
+}
+
+.left-side-year-link{
+   text-decoration: none;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 50px;
+   color: #000000;
+   margin-left: 20px;
+}
+
+
+.left-side-year-link:hover{
+   text-decoration: underline;
+   text-decoration-color: rgb(98, 98, 248);
+}
+
+.left-side-year-git{
+   text-decoration: none;
+   text-decoration: none;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 50px;
+   color: #000000;
+   margin-left: 20px;
+}
+
+.left-side-year-git:hover{
+   text-decoration: underline;
+   text-decoration-color: rgb(98, 98, 248);
+}
+
+.footer-middleP{
+   height: 50px;
+}
+
+.footer-middle-link{
+   text-decoration: none;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 50px;
+   color: #000000;
+}
+
+.footer-middle-link:hover{
+   text-decoration: underline;
+   text-decoration-color: rgb(98, 98, 248);
+}
+
+.left-side-link{
+   display: inline-block;
+}
+
+.icons{
+   padding: 40px 109px 40px 0;
+}
+
+.icons-link{
+   margin-right: 25px;
+}
+
+.icons-list{
+   list-style-type: none;
+}
+
+
+
+
+@media screen and(max-width: 768px){
+   .footer{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+   
+   
+   .footer-left-side{
+      display: flex;
+      align-items: center;
+      padding: 0;
+   
+   }
+   
+   .left-side-author{
+      display: inline-block;
+      width: 19px;
+      height: 50px;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 50px;
+   }
+   
+   .left-side-year{
+      display: inline-block;
+   }
+   
+   .left-side-year-link{
+      text-decoration: none;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 50px;
+      color: #000000;
+      margin-left: 20px;
+   }
+   
+   
+   .left-side-year-link:hover{
+      text-decoration: underline;
+      text-decoration-color: rgb(98, 98, 248);
+   }
+   
+   .left-side-year-git{
+      text-decoration: none;
+      text-decoration: none;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 50px;
+      color: #000000;
+      margin-left: 20px;
+   }
+   
+   .left-side-year-git:hover{
+      text-decoration: underline;
+      text-decoration-color: rgb(98, 98, 248);
+   }
+   
+   .footer-middle{
+      height: 50px;
+   }
+   
+   .footer-middle-link{
+      text-decoration: none;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 50px;
+      color: #000000;
+   }
+   
+   .footer-middle-link:hover{
+      text-decoration: underline;
+      text-decoration-color: rgb(98, 98, 248);
+   }
+   
+   .left-side-link{
+      display: inline-block;
+   }
+   
+   .icons{
+      display: flex;
+      justify-content: center;
+      padding: 0;
+   }
+   
+   .icons-link{
+      margin-right: 25px;
+   }
+   
+   .icons-list{
+      list-style-type: none;
+   }
+}

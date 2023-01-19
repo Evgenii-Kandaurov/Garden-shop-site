@@ -1,0 +1,319 @@
+.price-help{
+   display: flex;
+   justify-content:space-between;
+   padding: 0 109px 0 109px;
+}
+
+
+
+
+.price{
+   display: flex;
+   flex-direction: column;
+   width: 332px;
+   height: 282px;
+}
+
+
+
+.price-select{
+   width: 332px;
+   height: 282.01px;
+   border: 1px solid #E3E1D5;
+   border-radius: 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content:space-around;
+   
+}
+
+.price-select-input{
+width: 250px;
+height: 50px;
+background: #EDF2EC;
+border-radius: 20px;
+padding: 16px 110px 16px 40px;
+}
+
+.select-input-text{
+   width: 100px;
+   height: 18px;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 20px;
+   color: #000000;
+}
+
+
+.help-header{
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 50px;
+   text-align: right;
+   color: #000000;
+}
+
+
+.help{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+   padding-right: 109px;
+}
+
+.help-header-green{
+   color: var(--greenTextColor);
+}
+
+.help-button{
+   width: 162px;
+   height: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   box-sizing: border-box;
+   border: 1px solid var(--orangeTextBtnColor);
+   border-radius: 5px;
+   margin: 39px 0 39px 0;
+   transition: var(--transitionForAll);
+}
+
+.help-button-text{
+   font-family: 'Inika';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 26px;
+   color: var(--orangeTextBtnColor);
+   transition: var(--transitionForAll);
+}
+
+.help-button:hover{
+   transition: var(--transitionForAll);
+   background-color:var(--btnHoverBgColor);
+   .help-button-text{
+      color: var(--btnHoverTextColor);
+      transition: var(--transitionForAll);
+   }
+}
+
+
+
+
+@media screen and(max-width: 768px){
+   .price-help{
+      display: flex;
+      justify-content:space-between;
+      padding: 0;
+   }
+   
+   
+   
+   
+   .price{
+      display: flex;
+      flex-direction: column;
+      width: 332px;
+      height: 282px;
+      margin: 0 0 0 50px;
+   }
+   
+   
+   
+   .price-select{
+      width: 332px;
+      height: 282.01px;
+      border: 1px solid #E3E1D5;
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content:space-around;
+      
+   }
+   
+   .price-select-input{
+   width: 250px;
+   height: 50px;
+   background: #EDF2EC;
+   border-radius: 20px;
+   padding: 16px 110px 16px 40px;
+   }
+   
+   .select-input-text{
+      width: 100px;
+      height: 18px;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 20px;
+      color: #000000;
+   }
+   
+   
+   .help-header{
+      width: 296px;
+      height: 77px;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 25px;
+      line-height: 35px;
+      text-align: right;
+      color: #000000;
+      margin: 0 50px 30px 0;
+   }
+   
+   
+   .help{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      padding: 0;
+      margin-top: 67px;
+   }
+   
+   .help-header-green{
+      color: var(--greenTextColor);
+   }
+   
+   .help-button{
+      width: 162px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-sizing: border-box;
+      border: 1px solid var(--orangeTextBtnColor);
+      border-radius: 5px;
+      margin: 0px 50px 30px 0;
+      transition: var(--transitionForAll);
+   }
+   
+   .help-button-text{
+      font-family: 'Inika';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 26px;
+      color: var(--orangeTextBtnColor);
+      transition: var(--transitionForAll);
+   }
+   
+   .help-button:hover{
+      transition: var(--transitionForAll);
+      background-color:var(--btnHoverBgColor);
+      .help-button-text{
+         color: var(--btnHoverTextColor);
+         transition: var(--transitionForAll);
+      }
+   }
+
+
+   .help-image{
+      margin: 0 50px 0 0px;
+   }
+
+   .help-image-input{
+      width: 152px;
+      height: 174px;
+   }
+   
+}
+
+
+   @media screen and(max-width: 380px) {
+      .price-help{
+         display: flex;
+         flex-direction: column;
+         padding: 0;
+         align-items: center;
+      }
+
+      .price{
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         width: auto;
+         height: 282px;
+         margin: 25px 0 19px 0;
+      }
+
+      .price-select{
+         width: 224px;
+         height: 235px;
+         border: 1px solid #E3E1D5;
+         border-radius: 20px;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content:space-around;
+         margin: 0 0 19px 0;
+      }
+
+      .price-select-input{
+         width: 180px;
+         height: 49px;
+         background: #EDF2EC;
+         border-radius: 20px;
+         padding: 0;
+         text-align: center;
+         }
+
+      .select-input-text{
+         width: 89px;
+         height: 17px;
+         font-family: 'Inter';
+         font-style: normal;
+         font-weight: 700;
+         font-size: 15px;
+         line-height: 20px;
+         padding: 0;
+         margin: 0;
+         }
+         
+
+      .help{
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         padding: 0;
+         margin: 0 0 40px 0;
+      }
+
+      .help-header{
+         width: 230px;
+         height: 37px;
+         font-family: 'Inter';
+         font-style: normal;
+         font-weight: 700;
+         font-size: 20px;
+         line-height: 35px;
+         color: #000000;
+         margin: 0 0 14px 0;
+      }
+
+      .help-button{
+         width: 162px;
+         height: 50px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         box-sizing: border-box;
+         border: 1px solid var(--orangeTextBtnColor);
+         border-radius: 5px;
+         margin: 0;
+         transition: var(--transitionForAll);
+      }
+      
+
+      .help-image{
+         display: none;
+      }
+   }

@@ -1,0 +1,21 @@
+body{
+   display: flex;
+   flex-direction: column;
+   min-width: 100%;
+   min-height: 100;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+.header-main{
+   flex: 1 1 134px;
+}
+
+.main{
+   flex: 1 1 auto;
+}
+
+.footer{
+   flex: 1 1 130px;
+}
+
